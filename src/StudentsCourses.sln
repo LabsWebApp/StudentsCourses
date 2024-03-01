@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{85981618-9DE3-443D-BB24-1BEC373256C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataModels", "DataModels", "{D3777D9F-13B4-4CD4-AC37-D3F743D0815A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{692FD4AD-31DB-46C0-8B58-07F003D813E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{B836E04E-A8A8-4921-BF86-36564920CFEC}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3777D9F-13B4-4CD4-AC37-D3F743D0815A} = {85981618-9DE3-443D-BB24-1BEC373256C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933116E5-8FF1-449E-BD1F-8FFB776097CA}
+	EndGlobalSection
+EndGlobal
