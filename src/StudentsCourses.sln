@@ -11,12 +11,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{B836E04E-A8A8-4921-BF86-36564920CFEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsCourses.Core", "StudentsCourses.Core\StudentsCourses.Core.csproj", "{305DB2AF-497F-4FA6-8FFB-39F173C549FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDataModels", "BaseDataModels\BaseDataModels.csproj", "{5D55F4FE-57DD-4D44-AE4D-B2DC8C3A28BB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{305DB2AF-497F-4FA6-8FFB-39F173C549FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305DB2AF-497F-4FA6-8FFB-39F173C549FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305DB2AF-497F-4FA6-8FFB-39F173C549FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305DB2AF-497F-4FA6-8FFB-39F173C549FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D55F4FE-57DD-4D44-AE4D-B2DC8C3A28BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D55F4FE-57DD-4D44-AE4D-B2DC8C3A28BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D55F4FE-57DD-4D44-AE4D-B2DC8C3A28BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D55F4FE-57DD-4D44-AE4D-B2DC8C3A28BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D3777D9F-13B4-4CD4-AC37-D3F743D0815A} = {85981618-9DE3-443D-BB24-1BEC373256C6}
+		{5D55F4FE-57DD-4D44-AE4D-B2DC8C3A28BB} = {D3777D9F-13B4-4CD4-AC37-D3F743D0815A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {933116E5-8FF1-449E-BD1F-8FFB776097CA}
